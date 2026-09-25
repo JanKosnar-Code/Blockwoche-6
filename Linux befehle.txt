@@ -1,0 +1,84 @@
+history : einsehen was ich alles gemacht habe
+clear : terminal reinigen
+exit : beendet die Sitzung
+reboot : startet die Sitzung neu
+whoami : zeigt wer ich bin
+who : zeigt alle aktuell angemeldeten user an
+uname -a : zeigt System Informationen an
+uptime : zeigt an wie lange Linux schon läuft
+free : zeigt wieviel Speicherplatz noch frei ist und Informationen darüber
+df : Infos über das File System
+top : Task Manager
+btop : schönerer Task Manager
+ps aux : Task Manager zu einem einzelnen Moment
+kill : beendet einen Prozess
+killall : beendet alle Prozesse mit einem bestimmten Namen
+cron / cronjobs : erstellt einen automatisierter Prozess der sich selber startet
+ping : prüft ob ich eine Verbindung zu etwas habe
+ifconfig : zeigt alle Schnittstellen an
+curl : requests an einen Server senden
+ssh : sichere Verbindung zu einem remote Server
+scp : kopiert Dateien über eine ssh verbindung
+setxkbmap : stellt Tastatur Layout um für diese Session
+sudo : als super user commands eingeben
+sudo su : macht dich zum permanenten super user
+useradd : user adden
+userdel : user löschen
+usermod : ein bestehendes userkonto bearbeiten
+users : zeigt alle users an
+groups : zeigt alle gruppen an
+groupadd : erstellt eine neue gruppe
+passwd : erstellt ein neues Passwort für einen user
+id : zeigt die user und gruppen ids an vom user der grade aktiv ist
+pwd : gibt aktuelles Verzeichnis aus
+/ : nicht nachfragen
+man : öffnet das Manual von etwas
+--help : Informationen über einen Befehl
+ls : zeigt Inhalt des aktuellen Verzeichnisses
+ls -hal : liste humanreadable
+lshw : zeigt die Hardware an
+lsusb : zeigt welche USB Geräte dran sind
+lspci : zeigt alle PCI Geräte an
+lscpu : zeigt Informationen über die CPU
+ln -s : erstellt eine Verknüpfung
+install : installiert etwas
+cd : Ordner angeben
+cd .. : ein Verzeichnis nach oben
+cd ~ : bringt immer ins home Verzeichnis
+cd - : bringt zum letzten Verzeichnis wo ich war
+zip / unzip : etwas verpacken oder entpacken
+find : sucht etwas in einem Verzeichnis. mit * im Wort zählt es als Platzhalter
+find / : sucht im main Verzeichnis und allen Unterverzeichnissen
+file (Name der file) : sagt was für ein typ eine Datei ist
+cp : kopiert ein Verzeichnis
+mv : etwas verschieben oder umbenennen
+echo "was du im Text willst" >> (Dateiname) : gibt einen Text aus
+cat : gibt den Inhalt einer Datei aus
+tac : gibt den Inhalt einer Datei umgekehrt aus
+head : fast selbe wie cat
+tail : fast selbe wie cat
+more : fast selbe wie cat
+less : fast selbe wie cat
+| grep (Wort) : sucht in einer Datei nach einem bestimmten Satz/Wort
+grep -i (Wort) (Datei/Dateien) : sucht in mehreren Dateien nach Wörtern/Sätzen
+alias : erstellt eine Kürzung für einen langen Befehl
+nano : in eine Datei rein gehen zum schreiben
+rm : löscht eine Datei
+rmdir : löscht ein Dictionary wo nichts drinnen ist
+touch : erstellt eine Datei
+mkdir : erstellt einen Ordner
+gcc -o : erstellt eine Datei aus einer anderen die jedoch ausführbar ist
+chown : Besitzer und gruppe einer Datei ändern
+chmod -x : entfernt die Möglichkeit eine Datei zu öffnen
+chmod +x : fügt die Möglichkeit wieder hinzu
+chmod (u/g/o)-x : welche Leute es sehen können (user/Group/jeder)
+chmod 777 : jeder kann die Datei nun ausführen lesen und schreiben. man kann mit den zahlen 7 6 4 und 0 auch die generellen rechte bearbeiten
+./(Name Der Datei) : Ein Programm ausführen was man geschrieben hat
+apt : packaging Tool
+apt update : zeigt welche Pakete man updaten kann
+apt upgrade : updated alle Pakete
+apt install : was neues installieren
+apt remove : etwas entfernen
+apt purge : etwas entfernen inklusive neben Dateien
+apt dist-upgrade : updated das ganze System
+
